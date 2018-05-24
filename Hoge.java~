@@ -1,0 +1,25 @@
+package jp.ac.uryukyu.ie.e175751;
+public class Hoge{
+    public static void main(String[] args){
+	System.out.println("ほ\nげ\nほ\nげ");//演習１
+	int a=1;
+	double b=a/2;
+	System.out.println(b);
+	b=a/2.;
+	System.out.println(b);
+	System.out.println("演習２");
+	int c=(int)10.9;
+	System.out.println(c);
+	//char maka='a';
+	//System.out.println(int(maka));
+	String[] text={"This","is","test."};
+	//String[] result41 = text[0]+text[1]+text[2]
+	String result41="";
+	for (String item : text){
+	    result41 += item;
+	    String str = "This is test.";
+	    System.out.println(str.toLowerCase());
+	    System.out.println('str')
+	}
+    }
+}
